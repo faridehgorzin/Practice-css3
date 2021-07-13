@@ -1,0 +1,36 @@
+/*************
+modal
+***************/
+.modal {
+  display: none;
+  width: 40%;
+  margin: 0 auto;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: #fff;
+  -webkit-box-shadow: 0 0 15px #000;
+  -o-box-shadow: 0 0 15px #000;
+  box-shadow: 0 0 15px #000;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.modal .close-modal {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.modal h2 {
+  background: #0072ae;
+  color: #fff;
+  padding: 10px;
+}
+.modal ul {
+  padding: 10px 30px 30px 30px;
+}
+/*# sourceMappingURL=modal.css.map */
